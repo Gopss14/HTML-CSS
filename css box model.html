@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>stretch button</title>
+        <style>
+            .stretch-button{
+                background-color: green;
+                color: white;
+                cursor: pointer;
+                font-size:25px;
+                border: none;
+                padding-right: 10px;
+                padding-left: 10px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                font-style: oblique;
+                border-radius: 8px;
+                transition:
+                padding-right 5s,
+                padding-left 5s,
+                padding-top 5s,
+                padding-bottom 5s;
+            }
+            .stretch-button:active{
+                background-color: blue;
+            }
+            .stretch-button:hover{
+                padding-right: 30px;
+                padding-left: 30px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+        
+        </style>
+    </head>
+    <body>
+        <button class ="stretch-button">stretch</button>
+    </body>
+</html>
+
