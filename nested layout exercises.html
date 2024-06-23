@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>nested layout exercise</title>
+     <style>
+        .dev-grid{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            column-gap: 15px;
+            
+        }
+        .dev1{
+            box-shadow: 10px 10px 10px gray;
+            display: inline-block;
+            margin-right: 50px;    
+        }
+        .text-edit{
+            font-weight: bold;
+            font-size: 20px;  
+        }
+        .text-edit2{
+            font-size: 18px;
+            margin-top: 10px;
+            margin-bottom: 30px;
+            margin-left: 8px;
+            vertical-align: text-top;
+        }
+        .button{
+            background-color: blue;
+            font-weight: 50px;
+            font-size: 15px;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-bottom: 12px;
+        }
+        .img{
+            width: 100%;
+            height: 300px;
+            background-color: white;
+        }
+        
+        .img-edit{
+            width: 40px;
+            height: 40px;
+            border-radius: 50px;
+            vertical-align: top;
+        }
+        .subdev21,
+        .subdev22{
+            display: inline-block;
+        }
+        .devbutton{
+            display: block;
+        }
+
+     </style>
+    </head>
+    <body>
+        <div class="dev-grid">
+         <div class="dev1">
+            <div class="subdev1">
+             <img class="img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREzDhHtir8_-QwnyJ8633wNM1bEOEtPodDeg&usqp=CAU">
+            </div>
+            <div class="subdev2">
+                <div>
+                    <p class="text-edit">
+                        Olivia
+                    </p>
+                </div>
+                <div>
+                    <div class="subdev21" >
+                       <img class="img-edit" src="https://resize.indiatvnews.com/en/resize/newbucket/1080_-/2023/06/untitled-design-2023-06-20t120715-1687246152.jpg">
+                    </div>
+                    <div class="subdev22">
+                      <p class="text-edit2">
+                        2 mutual friends
+                      </p>
+                    </div>
+                </div>
+                <div class="devbutton">
+                    <button class="button">
+                        Add Friend
+                    </button>
+                </div>
+            </div>
+         </div>
+         <div class="dev1">
+            <div class="subdev1">
+             <img class="img" src="https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcHUyMzMxNjM2LWltYWdlLWt3dnk3dzV3LmpwZw.jpg">
+            </div>
+            <div class="subdev2">
+                <div>
+                    <p class="text-edit">
+                        Mimi
+                    </p>
+                </div>
+                <div>
+                    <div class="subdev21" >
+                       <img class="img-edit" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT97hU43u6vLrdfW4Vlrjd4HLzJvrehmCIa7g&usqp=CAU">
+                    </div>
+                    <div class="subdev22">
+                      <p class="text-edit2">
+                        3 mutual friends
+                      </p>
+                    </div>
+                </div>
+                <div class="devbutton">
+                    <button class="button">
+                        Add Friend
+                    </button>
+                </div>
+            </div>
+         </div>
+         <div class="dev1">
+            <div class="subdev1">
+             <img class="img" src="https://static.scientificamerican.com/sciam/cache/file/32665E6F-8D90-4567-9769D59E11DB7F26_source.jpg?w=1200">
+            </div>
+            <div class="subdev2">
+                <div>
+                    <p class="text-edit">
+                        Rex
+                    </p>
+                </div>
+                <div>
+                    <div class="subdev21" >
+                       <img class="img-edit" src="https://hips.hearstapps.com/hmg-prod/images/portrait-of-cat-sitting-on-sofa-at-home-royalty-free-image-1574708553.jpg?crop=0.668xw:1.00xh;0.167xw,0&resize=1200:*">
+                    </div>
+                    <div class="subdev22">
+                      <p class="text-edit2">
+                        4 mutual friends
+                      </p>
+                    </div>
+                </div>
+                <div class="devbutton">
+                    <button class="button">
+                        Add Friend
+                    </button>
+                </div>
+            </div>
+         </div>
+        </div>
+        
+    </body>
+</html>
